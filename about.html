@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Side Navigation with Image Gallery Example</title>
+    </head>
+    <body>
+        <!-- The side navigation -->
+       <div class="mm">
+        <button class="button" onclick="openOverlay()">Menu
+        </button>
+      
+        <img src="photos/ACSlogoArtboard 6.png" alt="Logo" class="logo">
+    
+    </div>
+<div class="mm">
+    <div id="overlay" class="overlay">
+		<div class="overlay-content">
+			<span class="closebtn" onclick="closeOverlay()">&times;</span>
+            <a  href="index.html" class="logo"><img src="photos/ACSlogoArtboard 6.png" alt="Image description"></a>
+			
+            
+            
+            <ul>
+				<li><a href="3029.html"> 3029</a></li>
+				<li><a href="bird.html">The Bird Cage</a></li>
+				<li><a href="paper.html">Papers & Paper</a>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                </ul>
+		<div class="form-container">
+                <h2>Contact Me</h2>
+                <form>
+                  <div class="form-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                  </div>
+                  <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." required>
+                  </div>
+                  <div class="form-input">
+                    <label for="purpose">Purpose</label>
+                    <input type="text" id="purpose" name="purpose" placeholder="Purpose for reaching out.." required>
+                  </div>
+                  <div class="form-submit">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+        
+            </div>
+	
+    </div>
+   
+   
+   
+   
+   
+   
+</div>
+        <nav class="sidenav">
+           <a  href="index.html" class="logo"><img src="photos/ACSlogoArtboard 6.png" alt="Image description"></a>
+           
+           <a href="3029.html">3029</a>
+            <a href="bird.html">Bird Cage</a>
+            <a href="paper.html"> Paper & Paper</a>
+            <a href="about.html">About me</a>
+           
+           
+            
+          
+            <div class="form-container">
+                <h2>Contact Me</h2>
+                <form>
+                  <div class="form-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                  </div>
+                  <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." required>
+                  </div>
+                  <div class="form-input">
+                    <label for="purpose">Purpose</label>
+                    <input type="text" id="purpose" name="purpose" placeholder="Purpose for reaching out.." required>
+                  </div>
+                  <div class="form-submit">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+       
+            </nav>
+       
+        <!-- The image gallery -->
+       
+        <div class="main">
+
+       
+       
+            
+            <div class="text"></div>
+            <section id="about-me">
+              <h1>About Me</h1>
+              <p>Hi, my name is John Doe and I'm a web developer based in New York City. I have a passion for creating beautiful and functional websites that are easy to use and navigate. In my free time, I enjoy hiking and exploring the great outdoors.</p>
+            </section>
+            <section id="education">
+              <h1>Education</h1>
+              <p>I graduated from XYZ University with a degree in Computer Science. During my time there, I learned a variety of programming languages and gained experience working on real-world projects.</p>
+            </section>
+            <section id="experience">
+              <h1>Experience</h1>
+              <p>I have worked for several web development companies over the past 5 years, gaining experience in front-end and back-end development. Some of my notable projects include a custom e-commerce platform for a fashion retailer and a content management system for a local news website.</p>
+            </section>
+            <section id="skills">
+              <h1>Skills</h1>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript/jQuery</li>
+                <li>PHP/MySQL</li>
+                <li>Responsive Design</li>
+                <li>SEO Optimization</li>
+              </ul>
+            </section>
+          </div>
+      
+        </div>
+       
+        
+        
+        <script>
+            function openOverlay() {
+                document.getElementById("overlay").style.display = "block";
+            }
+    
+            function closeOverlay() {
+                document.getElementById("overlay").style.display = "none";
+            }
+        </script>
+    </body>
+    </html>
+    
